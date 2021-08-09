@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc-watch --onSuccess \"node dist/index.js\""
+    "start": "tsc-watch --onSuccess \"node out/index.js\""
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/epicblues/TypeChain/issues"
   },
-  "homepage": "https://github.com/epicblues/TypeChain#readme"
+  "homepage": "https://github.com/epicblues/TypeChain#readme",
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.13"
+  }
 }
